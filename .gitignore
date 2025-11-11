@@ -1,0 +1,25 @@
+# Ignore virtual environments
+robot_env/
+venv/
+
+# Ignore Python cache and temp files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore large models and datasets
+*.h5
+*.pt
+*.tflite
+*.onnx
+data/train/
+data/test/
+data/raw/
+models/checkpoints/
+results/
+
+# Ignore system and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
