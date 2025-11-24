@@ -12,11 +12,16 @@ __pycache__/
 *.pt
 *.tflite
 *.onnx
-data/train/
-data/test/
-data/raw/
+data/train/images/
+data/train/labels/
+data/valid/images/
+data/valid/labels/
+data/test/images/
+data/test/labels/
+data/*.cache
 models/checkpoints/
 results/
+runs/
 
 # Ignore system and IDE files
 .DS_Store
