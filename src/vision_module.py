@@ -16,7 +16,7 @@ from typing import List, Tuple, Dict
 class VisionModule:
     """Handle object detection and color classification for desk items."""
     
-    def __init__(self, model_path: str = 'models/best.pt'):
+    def __init__(self, model_path: str = '../models/best.pt'):
         """
         Initialize vision module with trained YOLOv8 model.
         
